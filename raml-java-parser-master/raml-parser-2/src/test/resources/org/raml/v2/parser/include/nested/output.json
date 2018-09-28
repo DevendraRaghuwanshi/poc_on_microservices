@@ -1,0 +1,45 @@
+{
+    "title": {
+        "value": "hola"
+    },
+    "resources": [
+        {
+            "relativeUri": "/top",
+            "displayName": {
+                "value": "/top"
+            },
+            "methods": [
+                {
+                    "method": "get",
+                    "description": {
+                        "value": "some description"
+                    },
+                    "displayName": {
+                        "value": "get"
+                    }
+                }
+            ],
+            "resources": [
+                {
+                    "relativeUri": "/{id}",
+                    "displayName": {
+                        "value": "/{id}"
+                    },
+                    "uriParameters": {
+                        "id": {
+                            "type": "string"
+                        }
+                    },
+                    "methods": [
+                        {
+                            "method": "put",
+                            "displayName": {
+                                "value": "put"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
